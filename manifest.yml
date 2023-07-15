@@ -1,0 +1,11 @@
+modules:
+  jira:issuePanel:
+    - key: agile-reporting-hello-world-panel
+      function: main
+      title: agile-reporting
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/89aeebe9-52f7-4393-aa2b-2794abd8f0d7
